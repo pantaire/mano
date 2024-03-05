@@ -1,0 +1,1109 @@
+[
+    {
+      "id": 1,
+      "name": "Margarita",
+      "type": "pizza",
+      "ingredients": ["Tomaten", "Käse"],
+      "vegetarian": true,
+      "price": {
+        "28cm": 6.00,
+        "30cm": 7.00,
+        "39cm": 12.00,
+        "party": 20.00
+      }
+    },
+    {
+      "id": 2,
+      "name": "Salami",
+      "type": "pizza",
+      "ingredients": ["Salami"],
+      "vegetarian": false,
+      "price": {
+        "28cm": 6.50,
+        "30cm": 8.00,
+        "39cm": 12.50,
+        "party": 24.00
+      }
+    },
+    {
+      "id": 3,
+      "name": "Prosciutto",
+      "type": "pizza",
+      "ingredients": ["Vorderschinken"],
+      "vegetarian": false,
+      "price": {
+        "28cm": 6.50,
+        "30cm": 8.00,
+        "39cm": 12.50,
+        "party": 24.00
+      }
+    },
+    {
+      "id": 4,
+      "name": "Funghi",
+      "type": "pizza",
+      "ingredients": ["frische Champignons"],
+      "vegetarian": true,
+      "price": {
+        "28cm": 6.50,
+        "30cm": 8.00,
+        "39cm": 12.50,
+        "party": 24.00
+      }
+    },
+    {
+      "id": 5,
+      "name": "Carciofi",
+      "type": "pizza",
+      "ingredients": ["Artischocken"],
+      "vegetarian": true,
+      "price": {
+        "28cm": 6.50,
+        "30cm": 8.00,
+        "39cm": 12.50,
+        "party": 24.00
+      }
+    },
+    {
+      "id": 6,
+      "name": "Paprika",
+      "type": "pizza",
+      "ingredients": ["Paprika-Mix"],
+      "vegetarian": true,
+      "price": {
+        "28cm": 6.50,
+        "30cm": 8.00,
+        "39cm": 12.50,
+        "party": 24.00
+      }
+    },
+    {
+      "id": 7,
+      "name": "Broccoli",
+      "type": "pizza",
+      "ingredients": ["Brokkoli"],
+      "vegetarian": true,
+      "price": {
+        "28cm": 6.50,
+        "30cm": 8.00,
+        "39cm": 12.50,
+        "party": 24.00
+      }
+    },
+    {
+      "id": 8,
+      "name": "Spinaci",
+      "type": "pizza",
+      "ingredients": ["Spinat", "Knoblauch"],
+      "vegetarian": true,
+      "price": {
+        "28cm": 6.50,
+        "30cm": 8.00,
+        "39cm": 12.50,
+        "party": 24.00
+      }
+    },
+    {
+      "id": 9,
+      "name": "Tonno C",
+      "type": "pizza",
+      "ingredients": ["Thunfisch", "Zwiebeln", "Oliven"],
+      "vegetarian": false,
+      "price": {
+        "28cm": 7.00,
+        "30cm": 9.00,
+        "39cm": 14.50,
+        "party": 26.00
+      }
+    },
+    {
+      "id": 10,
+      "name": "Sicilia C",
+      "type": "pizza",
+      "ingredients": ["Sardellen", "Oliven", "Kapern"],
+      "vegetarian": false,
+      "price": {
+        "28cm": 7.00,
+        "30cm": 9.00,
+        "39cm": 14.50,
+        "party": 26.00
+      }
+    },
+    {
+      "id": 11,
+      "name": "Piccante",
+      "type": "pizza",
+      "ingredients": ["scharfe Salami"],
+      "vegetarian": false,
+      "price": {
+        "28cm": 7.00,
+        "30cm": 9.00,
+        "39cm": 14.50,
+        "party": 26.00
+      }
+    },
+    {
+      "id": 12,
+      "name": "4 Stagioni",
+      "type": "pizza",
+      "ingredients": ["Vorderschinken", "Oliven", "frische Champignons", "Artischocken"],
+      "vegetarian": false,
+      "price": {
+        "28cm": 7.00,
+        "30cm": 9.00,
+        "39cm": 15.00,
+        "party": 27.00
+      }
+    },
+    {
+      "id": 13,
+      "name": "4 Route",
+      "type": "pizza",
+      "ingredients": ["Vorderschinken", "Salami", "frische Champignons", "Peperoni"],
+      "vegetarian": false,
+      "price": {
+        "28cm": 7.00,
+        "30cm": 9.00,
+        "39cm": 16.00,
+        "party": 27.00
+      }
+    },
+    {
+      "id": 14,
+      "name": "Prosciutto-Funghi",
+      "type": "pizza",
+      "ingredients": ["Vorderschinken", "frische Champignons"],
+      "vegetarian": false,
+      "price": {
+        "28cm": 7.00,
+        "30cm": 8.00,
+        "39cm": 15.00,
+        "party": 25.00
+      }
+    },
+    {
+      "id": 15,
+      "name": "Prosciutto-Salami",
+      "type": "pizza",
+      "ingredients": ["Vorderschinken", "Salami"],
+      "vegetarian": false,
+      "price": {
+        "28cm": 7.00,
+        "30cm": 8.00,
+        "39cm": 15.00,
+        "party": 25.00
+      }
+    },
+    {
+      "id": 16,
+      "name": "Salami-Funghi",
+      "type": "pizza",
+      "ingredients": ["Salami", "frische Champignons"],
+      "vegetarian": false,
+      "price": {
+        "28cm": 7.00,
+        "30cm": 8.00,
+        "39cm": 15.00,
+        "party": 25.00
+      }
+    },
+    {
+      "id": 17,
+      "name": "Gamberetti G",
+      "type": "pizza",
+      "ingredients": ["Krabben", "Ruccola", "Knoblauch"],
+      "vegetarian": false,
+      "price": {
+        "28cm": 8.00,
+        "30cm": 9.00,
+        "39cm": 17.50,
+        "party": 27.00
+      }
+    },
+    {
+      "id": 18,
+      "name": "Marinara G",
+      "type": "pizza",
+      "ingredients": ["Meeresfrüchte"],
+      "vegetarian": false,
+      "price": {
+        "28cm": 8.00,
+        "30cm": 9.00,
+        "39cm": 17.50,
+        "party": 27.00
+      }
+    },
+    {
+      "id": 19,
+      "name": "Dario",
+      "type": "pizza",
+      "ingredients": ["Hackfleisch", "Zwiebeln"],
+      "vegetarian": false,
+      "price": {
+        "28cm": 7.00,
+        "30cm": 8.00,
+        "39cm": 16.00,
+        "party": 25.00
+      }
+    },
+    {
+      "id": 20,
+      "name": "4 Formaggi",
+      "type": "pizza",
+      "ingredients": ["vier versch. Käsesorten"],
+      "vegetarian": true,
+      "price": {
+        "28cm": 8.00,
+        "30cm": 9.00,
+        "39cm": 16.00,
+        "party": 27.00
+      }
+    },
+    {
+      "id": 21,
+      "name": "Vegeteriana",
+      "type": "pizza",
+      "ingredients": ["Zucchini", "Spinat", "Spargel", "Paprika", "Broccoli"],
+      "vegetarian": true,
+      "price": {
+        "28cm": 7.00,
+        "30cm": 9.00,
+        "39cm": 17.50,
+        "party": 27.00
+      }
+    },
+    {
+      "id": 23,
+      "name": "Hawaii",
+      "type": "pizza",
+      "ingredients": ["Vorderschinken", "Ananas"],
+      "vegetarian": false,
+      "price": {
+        "28cm": 7.00,
+        "30cm": 8.50,
+        "39cm": 15.00,
+        "party": 25.00
+      }
+    },
+    {
+      "id": 24,
+      "name": "Trio 1",
+      "type": "pizza",
+      "ingredients": ["Vorderschinken", "Salami", "Pilze"],
+      "vegetarian": false,
+      "price": {
+        "28cm": 7.00,
+        "30cm": 8.50,
+        "39cm": 16.00,
+        "party": 25.00
+      }
+    },
+    {
+      "id": 25,
+      "name": "Mano Pizza G",
+      "type": "pizza",
+      "ingredients": ["Champignons", "Krabben", "Mozzarella", "Parmaschinken"],
+      "vegetarian": false,
+      "price": {
+        "28cm": 7.50,
+        "30cm": 9.00,
+        "39cm": 18.00,
+        "party": 27.00
+      }
+    },
+    {
+      "id": 26,
+      "name": "Calzone",
+      "type": "pizza",
+      "ingredients": ["Gefüllt mit Salami", "Vorderschinken", "Pilze"],
+      "vegetarian": false,
+      "price": {
+        "28cm": 7.50,
+        "30cm": 9.00,
+        "39cm": 16.00,
+        "party": null
+      }
+    },
+    {
+      "id": 27,
+      "name": "Prosciutto-Peperoni",
+      "type": "pizza",
+      "ingredients": ["scharfe Salami", "Peperoni"],
+      "vegetarian": false,
+      "price": {
+        "28cm": 7.00,
+        "30cm": 8.50,
+        "39cm": 15.00,
+        "party": 25.00
+      }
+    },
+    {
+      "id": 28,
+      "name": "Salami-Peperoni",
+      "type": "pizza",
+      "ingredients": ["Salami", "Peperoni"],
+      "vegetarian": false,
+      "price": {
+        "28cm": 7.00,
+        "30cm": 8.50,
+        "39cm": 15.00,
+        "party": 25.00
+      }
+    },
+    {
+      "id": 29,
+      "name": "Hollandaise",
+      "type": "pizza",
+      "ingredients": ["Putenbrust", "Spargel", "Hollandaise-Sauce"],
+      "vegetarian": false,
+      "price": {
+        "28cm": 8.00,
+        "30cm": 9.00,
+        "39cm": 17.50,
+        "party": 27.00
+      }
+    },
+    {
+        "id": 30,
+        "name": "Hähnchen",
+        "type": "pizza",
+        "ingredients": ["Tomaten", "Zwiebeln", "Knoblauch", "scharfe Peperoni"],
+        "vegetarian": false,
+        "price": {
+          "28cm": 7.50,
+          "30cm": 9.00,
+          "39cm": 16.00,
+          "party": 27.00
+        }
+      },
+      {
+        "id": 31,
+        "name": "Spargel",
+        "type": "pizza",
+        "ingredients": ["Vorderschinken", "Artischocken"],
+        "vegetarian": false,
+        "price": {
+          "28cm": 7.00,
+          "30cm": 8.50,
+          "39cm": 16.00,
+          "party": 26.00
+        }
+      },
+      {
+        "id": 32,
+        "name": "Mozzarella",
+        "type": "pizza",
+        "ingredients": ["Vorderschinken", "Salami", "Pilze"],
+        "vegetarian": false,
+        "price": {
+          "28cm": 7.50,
+          "30cm": 9.00,
+          "39cm": 16.00,
+          "party": 26.00
+        }
+      },
+      {
+        "id": 33,
+        "name": "Bambini",
+        "type": "pizza",
+        "ingredients": ["Vorderschinken", "Salami", "Pilze"],
+        "vegetarian": false,
+        "price": {
+          "18cm": 4.00
+        }
+      },
+      {
+        "id": 34,
+        "name": "Parma",
+        "type": "pizza",
+        "ingredients": ["Parmaschinken"],
+        "vegetarian": false,
+        "price": {
+          "28cm": 8.00,
+          "30cm": 9.00,
+          "39cm": 17.00,
+          "party": 27.00
+        }
+      },
+      {
+        "id": 35,
+        "name": "Parmigiana",
+        "type": "pizza",
+        "ingredients": ["Auberginen", "Parmesan"],
+        "vegetarian": true,
+        "price": {
+          "28cm": 7.00,
+          "30cm": 8.00,
+          "39cm": 16.00,
+          "party": 24.00
+        }
+      },
+      {
+        "id": 36,
+        "name": "Sole B",
+        "type": "pizza",
+        "ingredients": ["Spargel", "Eier"],
+        "vegetarian": true,
+        "price": {
+          "28cm": 7.00,
+          "30cm": 8.00,
+          "39cm": 16.00,
+          "party": 24.00
+        }
+      },
+      {
+        "id": 37,
+        "name": "Amore Mio",
+        "type": "pizza",
+        "ingredients": ["Tomatenscheiben", "Ruccola", "Spinat", "Spargel"],
+        "vegetarian": true,
+        "price": {
+          "28cm": 7.00,
+          "30cm": 8.50,
+          "39cm": 16.00,
+          "party": 26.00
+        }
+      },
+      {
+        "id": 38,
+        "name": "La Rossa",
+        "type": "pizza",
+        "ingredients": ["scharfe Salami", "Salami", "Vorderschinken", "Parmaschinken"],
+        "vegetarian": false,
+        "price": {
+          "28cm": 8.50,
+          "30cm": 9.50,
+          "39cm": 17.00,
+          "party": 27.00
+        }
+      },
+      {
+        "id": 39,
+        "name": "La Greca",
+        "type": "pizza",
+        "ingredients": ["Vorderschinken", "Peperoni", "Schafskäse"],
+        "vegetarian": false,
+        "price": {
+          "28cm": 7.50,
+          "30cm": 8.50,
+          "39cm": 17.00,
+          "party": 26.00
+        }
+      },
+      {
+        "id": 40,
+        "name": "Schinken",
+        "type": "pizza",
+        "ingredients": ["Vorderschinken", "Paprika"],
+        "vegetarian": false,
+        "price": {
+          "28cm": 7.00,
+          "30cm": 8.00,
+          "39cm": 15.00,
+          "party": 25.00
+        }
+      },
+      {
+        "id": 41,
+        "name": "Bella",
+        "type": "pizza",
+        "ingredients": ["Mais", "Broccoli", "Zwiebeln", "Peperoni"],
+        "vegetarian": true,
+        "price": {
+          "28cm": 7.00,
+          "30cm": 8.00,
+          "39cm": 15.00,
+          "party": 25.00
+        }
+      },
+      {
+        "id": 42,
+        "name": "Pomodori",
+        "type": "pizza",
+        "ingredients": ["Tomatenscheiben", "Mozzarella"],
+        "vegetarian": true,
+        "price": {
+          "28cm": 7.00,
+          "30cm": 8.00,
+          "39cm": 15.00,
+          "party": 25.00
+        }
+      },
+      {
+        "id": 43,
+        "name": "Ruccola",
+        "type": "pizza",
+        "ingredients": ["Parmesan", "Tomatenscheiben"],
+        "vegetarian": true,
+        "price": {
+          "28cm": 7.00,
+          "30cm": 8.00,
+          "39cm": 15.00,
+          "party": 25.00
+        }
+      },
+      {
+        "id": 44,
+        "name": "Gigio C",
+        "type": "pizza",
+        "ingredients": ["Thunfisch", "Ruccola", "Krabben"],
+        "vegetarian": false,
+        "price": {
+          "28cm": 7.50,
+          "30cm": 9.00,
+          "39cm": 17.00,
+          "party": 27.00
+        }
+      },
+      {
+        "id": 45,
+        "name": "La Pazza",
+        "type": "pizza",
+        "ingredients": ["Paprika", "Zwiebeln", "Oliven", "Pilze", "Artischocken", "Vorderschinken", "Salami"],
+        "vegetarian": false,
+        "price": {
+          "28cm": 8.50,
+          "30cm": 9.50,
+          "39cm": 17.50,
+          "party": 28.00
+        }
+      },
+      {
+        "id": 46,
+        "name": "Focosa",
+        "type": "pizza",
+        "ingredients": ["scharfe Salami", "scharfe Peperoni"],
+        "vegetarian": false,
+        "price": {
+          "28cm": 7.00,
+          "30cm": 8.00,
+          "39cm": 16.00,
+          "party": 26.00
+        }
+      },
+      {
+        "id": 47,
+        "name": "Uova B",
+        "type": "pizza",
+        "ingredients": ["3 Eier", "Parmaschinken"],
+        "vegetarian": false,
+        "price": {
+          "28cm": 7.50,
+          "30cm": 8.50,
+          "39cm": 17.00,
+          "party": 25.00
+        }
+      },
+      {
+        "id": 48,
+        "name": "Granapadana",
+        "type": "pizza",
+        "ingredients": ["Parmaschinken", "Ruccola", "Parmesan"],
+        "vegetarian": false,
+        "price": {
+          "28cm": 7.50,
+          "30cm": 9.00,
+          "39cm": 18.00,
+          "party": 26.00
+        }
+      },
+      {
+        "id": 49,
+        "name": "Bianca 1",
+        "type": "pizza",
+        "ingredients": ["Sauerrahm", "Parmaschinken", "Zwiebeln", "Pilze"],
+        "vegetarian": false,
+        "price": {
+          "28cm": 7.00,
+          "30cm": 8.50,
+          "39cm": 17.00,
+          "party": 26.00
+        }
+      },
+      {
+        "id": 50,
+        "name": "Bianca 2",
+        "type": "pizza",
+        "ingredients": ["Sauerrahm", "Vorderschinken", "Zwiebeln", "Pilze"],
+        "vegetarian": false,
+        "price": {
+          "28cm": 7.00,
+          "30cm": 8.50,
+          "39cm": 17.00,
+          "party": 25.00
+        }
+      },
+      {
+        "id": 51,
+        "name": "Bianca 3",
+        "type": "pizza",
+        "ingredients": ["Sauerrahm", "Zwiebeln", "Pilze"],
+        "vegetarian": false,
+        "price": {
+          "28cm": 7.00,
+          "30cm": 8.50,
+          "39cm": 17.00,
+          "party": 25.00
+        }
+      },
+      {
+        "id": 52,
+        "name": "Bianca 4",
+        "type": "pizza",
+        "ingredients": ["Sauerrahm", "Pilze", "Spinat"],
+        "vegetarian": true,
+        "price": {
+          "28cm": 7.00,
+          "30cm": 8.50,
+          "39cm": 17.00,
+          "party": 25.00
+        }
+      },
+      {
+        "id": 53,
+        "name": "Bianca 5",
+        "type": "pizza",
+        "ingredients": ["Sauerrahm", "Pilze", "Spinat", "Zucchini", "Spargel", "Aubergine"],
+        "vegetarian": true,
+        "price": {
+          "28cm": 7.50,
+          "30cm": 9.00,
+          "39cm": 18.00,
+          "party": 27.00
+        }
+      },
+    
+      // ... (remaining pizzas)
+    
+      {
+        "id": 201,
+        "name": "Roma",
+        "type": "pizza",
+        "ingredients": ["Gorgonzola", "Spinat"],
+        "vegetarian": true,
+        "price": {
+          "28cm": 7.50,
+          "30cm": 9.00,
+          "39cm": 16.00,
+          "party": 26.00
+        }
+      },
+      {
+        "id": 202,
+        "name": "Diavolo",
+        "type": "pizza",
+        "ingredients": ["scharfe Salami", "Zwiebeln", "Oliven", "scharfe Peperoni"],
+        "vegetarian": false,
+        "price": {
+          "28cm": 7.00,
+          "30cm": 9.00,
+          "39cm": 17.00,
+          "party": 26.00
+        }
+      },
+      {
+        "id": 203,
+        "name": "Türkische 1",
+        "type": "pizza",
+        "ingredients": ["Sucuk", "Feta", "Paprika", "Peperoni", "Knoblauch"],
+        "vegetarian": false,
+        "price": {
+          "28cm": 7.50,
+          "30cm": 9.50,
+          "39cm": 16.50,
+          "party": 26.00
+        }
+      },
+      {
+        "id": 204,
+        "name": "Türkische 2",
+        "type": "pizza",
+        "ingredients": ["Sucuk", "Peperoni", "Champignons", "Feta"],
+        "vegetarian": false,
+        "price": {
+          "28cm": 7.50,
+          "30cm": 9.50,
+          "39cm": 16.00,
+          "party": 26.00
+        }
+      },
+      {
+        "id": 55,
+        "name": "Tortellini",
+        "type": "pasta",
+        "ingredients": ["Tomatensoße", "Vorderschinken", "Champignons", "Erbsen"],
+        "vegetarian": false,
+        "price": 8.50
+      },
+      {
+        "id": 56,
+        "name": "Penna al Forno",
+        "type": "pasta",
+        "ingredients": ["Hackfleischsoße mit Sahne"],
+        "vegetarian": false,
+        "price": 8.00
+      },
+      {
+        "id": 57,
+        "name": "Maccheroni",
+        "type": "pasta",
+        "ingredients": ["Tomatensoße", "Paprika", "Auberginen", "Oliven"],
+        "vegetarian": true,
+        "price": 8.50
+      },
+      {
+        "id": 58,
+        "name": "Penne",
+        "type": "pasta",
+        "ingredients": ["Tomatensoße", "Erbsen", "Vorderschinken", "Champignons"],
+        "vegetarian": false,
+        "price": 8.50
+      },
+      {
+        "id": 59,
+        "name": "Spaghetti",
+        "type": "pasta",
+        "ingredients": ["Hackfleischsoße", "Vorderschinken", "Champignons"],
+        "vegetarian": false,
+        "price": 8.50
+      },
+      {
+        "id": 60,
+        "name": "Gnocchi",
+        "type": "pasta",
+        "ingredients": ["Tomatensoße", "Vorderschinken", "Champignons"],
+        "vegetarian": false,
+        "price": 8.50
+      },
+      {
+        "id": 61,
+        "name": "Gnocchi",
+        "type": "pasta",
+        "ingredients": ["Sahne", "Gorgonzola", "Spinat"],
+        "vegetarian": true,
+        "price": 8.50
+      },
+      {
+        "id": 62,
+        "name": "Tris di Pasta",
+        "type": "pasta",
+        "ingredients": ["Lasagne", "Canneloni", "Tortellini", "Hackfleischsoße"],
+        "vegetarian": false,
+        "price": 8.50
+      },
+      {
+        "id": 63,
+        "name": "Canneloni",
+        "type": "pasta",
+        "ingredients": ["3 Stück in Hackfleischsoße"],
+        "vegetarian": false,
+        "price": 8.50
+      },
+      {
+        "id": 64,
+        "name": "Lasagne Classica",
+        "type": "pasta",
+        "ingredients": ["Hackfleischsoße", "Vorderschinken"],
+        "vegetarian": false,
+        "price": 8.50
+      },
+      {
+        "id": 65,
+        "name": "Tortellini Ragu",
+        "type": "pasta",
+        "ingredients": ["Hackfleischsoße"],
+        "vegetarian": false,
+        "price": 8.00
+      },
+      {
+        "id": 66,
+        "name": "Tortellini Pomodoro",
+        "type": "pasta",
+        "ingredients": ["Tomatensoße"],
+        "vegetarian": true,
+        "price": 8.00
+      },
+      {
+        "id": 67,
+        "name": "Tortellini alla Panna",
+        "type": "pasta",
+        "ingredients": ["Sahnesoße", "Vorderschinken"],
+        "vegetarian": false,
+        "price": 8.50
+      },
+      {
+        "id": 68,
+        "name": "Spaghetti Pomodoro",
+        "type": "pasta",
+        "ingredients": ["Tomatensoße"],
+        "vegetarian": true,
+        "price": 8.00
+      },
+      {
+        "id": 69,
+        "name": "Spaghetti Ragu",
+        "type": "pasta",
+        "ingredients": ["Hackfleischsoße"],
+        "vegetarian": false,
+        "price": 8.00
+      },
+      {
+        "id": 70,
+        "name": "Spaghetti Carbonara",
+        "type": "pasta",
+        "ingredients": ["Sahnesoße", "Vorderschinken", "Ei"],
+        "vegetarian": false,
+        "price": 8.50
+      },
+      {
+        "id": 71,
+        "name": "Spaghetti Pescatire",
+        "type": "pasta",
+        "ingredients": ["Meeresfrüchte", "Tomatensoße"],
+        "vegetarian": false,
+        "price": 8.00
+      },
+      {
+        "id": 72,
+        "name": "Spaghetti Aglio Olio",
+        "type": "pasta",
+        "ingredients": ["Peperoni", "Knoblauch"],
+        "vegetarian": true,
+        "price": 8.00
+      },
+      {
+        "id": 73,
+        "name": "Spaghetti Pesto",
+        "type": "pasta",
+        "ingredients": ["Basilikumsoße"],
+        "vegetarian": true,
+        "price": 8.00
+      },
+      {
+        "id": 74,
+        "name": "Spaghetti Tonno",
+        "type": "pasta",
+        "ingredients": ["Tomatensoße", "Thunfisch", "Zwiebeln", "Kapern"],
+        "vegetarian": false,
+        "price": 8.50
+      },
+      {
+        "id": 75,
+        "name": "Spaghetti Siciliana",
+        "type": "pasta",
+        "ingredients": ["Tomatensoße", "Sardellen", "Oliven", "Kapern", "Zwiebeln"],
+        "vegetarian": false,
+        "price": 8.00
+      },
+      {
+        "id": 77,
+        "name": "Penne alla Matriciana",
+        "type": "pasta",
+        "ingredients": ["Vorderschinken", "scharfe Peperoni", "Zwiebeln"],
+        "vegetarian": false,
+        "price": 8.00
+      },
+      {
+        "id": 78,
+        "name": "Penne all Arabiata",
+        "type": "pasta",
+        "ingredients": ["Tomatensoße", "scharfe Peperoni"],
+        "vegetarian": true,
+        "price": 8.00
+      },
+      {
+        "id": 79,
+        "name": "Penne all Trinacria",
+        "type": "pasta",
+        "ingredients": ["Oliven", "Paprika", "Sardellen", "Kapern", "Auberginen"],
+        "vegetarian": false,
+        "price": 8.00
+      },
+      {
+        "id": 80,
+        "name": "Penne con Spinaci",
+        "type": "pasta",
+        "ingredients": ["Sahnesoße", "Spinat"],
+        "vegetarian": true,
+        "price": 8.50
+      },
+      {
+        "id": 81,
+        "name": "Penne al 4 Formaggi",
+        "type": "pasta",
+        "ingredients": ["vier verschiedene Käsesorten", "Sahnesoße"],
+        "vegetarian": true,
+        "price": 8.50
+      },
+      {
+        "id": 82,
+        "name": "Penne Vegetariane",
+        "type": "pasta",
+        "ingredients": ["Zucchini", "Spinat", "Spargel", "Broccoli"],
+        "vegetarian": true,
+        "price": 8.00
+      },
+      {
+        "id": 83,
+        "name": "Troppa di Pasta",
+        "type": "pasta",
+        "ingredients": ["Spaghetti", "Penne", "Tortellini", "Vorderschinken", "Sahnesoße"],
+        "vegetarian": false,
+        "price": 8.50
+      },
+      {
+        "id": 84,
+        "name": "Penne Parmigiana",
+        "type": "pasta",
+        "ingredients": ["Aubergine", "Mozzarella", "Parmesan"],
+        "vegetarian": true,
+        "price": 8.00
+      },
+      {
+        "id": 85,
+        "name": "Tagliatelle Pomodori",
+        "type": "pasta",
+        "ingredients": ["Tomatensoße"],
+        "vegetarian": true,
+        "price": 8.00
+      },
+      {
+        "id": 86,
+        "name": "Tagliatelle Ragu",
+        "type": "pasta",
+        "ingredients": ["Hackfleischsoße"],
+        "vegetarian": false,
+        "price": 8.00
+      },
+      {
+        "id": 88,
+        "name": "Tagliatelle",
+        "type": "pasta",
+        "ingredients": ["Tomatensahnesoße", "frische Champignons"],
+        "vegetarian": true,
+        "price": 8.00
+      },
+      {
+        "id": 100,
+        "name": "Insalate Verde",
+        "type": "salate",
+        "ingredients": ["verschiedene grüne Blattsalate"],
+        "vegetarian": true,
+        "price": [3.50, 6.00]
+      },
+      {
+        "id": 101,
+        "name": "Cetrioli",
+        "type": "salate",
+        "ingredients": ["Gurkensalat"],
+        "vegetarian": true,
+        "price": [5.00, 7.50]
+      },
+      {
+        "id": 102,
+        "name": "Mais",
+        "type": "salate",
+        "ingredients": ["verschiedene grüne Blattsalate", "Mais", "Radieschen", "Karotten"],
+        "vegetarian": true,
+        "price": [5.00, 7.00]
+      },
+      {
+        "id": 103,
+        "name": "Pomodori",
+        "type": "salate",
+        "ingredients": ["Tomatensalat", "Zwiebeln"],
+        "vegetarian": true,
+        "price": [5.00, 7.50]
+      },
+      {
+        "id": 104,
+        "name": "Tonno",
+        "type": "salate",
+        "ingredients": ["Blattsalate", "Thunfisch", "Zwiebeln", "Kapern", "Karotten"],
+        "vegetarian": false,
+        "price": [5.50, 7.50]
+      },
+      {
+        "id": 105,
+        "name": "Insalata Mista",
+        "type": "salate",
+        "ingredients": ["Blattsalate", "Paprika", "Käse", "Gurken", "Zwiebeln", "Karotten"],
+        "vegetarian": true,
+        "price": [6.50, 7.50]
+      },
+      {
+        "id": 106,
+        "name": "Insalata Peperoni",
+        "type": "salate",
+        "ingredients": ["Blattsalate", "Paprika", "Käse", "Vorderschinken", "Champignons", "Oliven"],
+        "vegetarian": false,
+        "price": [6.50, 7.50]
+      },
+      {
+        "id": 107,
+        "name": "Insalata Chef",
+        "type": "salate",
+        "ingredients": ["Blattsalate", "Tomaten", "Gurken", "Käse", "Ei", "Vorderschinken", "Champignons", "Oliven", "Artischocken"],
+        "vegetarian": false,
+        "price": [6.50, 8.50]
+      },
+      {
+        "id": 108,
+        "name": "Insalata Greca",
+        "type": "salate",
+        "ingredients": ["Blattsalate", "Schafskäse", "Oliven", "Peperoni", "Vorderschinken"],
+        "vegetarian": false,
+        "price": [6.50, 7.50]
+      },
+      {
+        "id": 109,
+        "name": "Insalata Sicilia",
+        "type": "salate",
+        "ingredients": ["Blattsalate", "Kapern", "Sardellen", "Oliven", "Zwiebeln", "Tomaten", "Oregano"],
+        "vegetarian": false,
+        "price": [6.50, 8.00]
+      },
+      {
+        "id": 110,
+        "name": "Insalata California",
+        "type": "salate",
+        "ingredients": ["Blattsalate", "Tomaten", "Käse", "Ananas", "Vorderschinken"],
+        "vegetarian": false,
+        "price": [6.50, 7.50]
+      },
+      {
+        "id": 111,
+        "name": "Gamberetti",
+        "type": "salate",
+        "ingredients": ["Blattsalate", "Krabben", "Ruccola", "Zwiebeln", "Pilze", "Mozzarella"],
+        "vegetarian": false,
+        "price": [6.50, 8.50]
+      },
+      {
+        "id": 112,
+        "name": "Portofino",
+        "type": "salate",
+        "ingredients": ["Blattsalate", "Vorderschinken", "Ei", "Tomaten", "Käse"],
+        "vegetarian": false,
+        "price": [6.50, 7.50]
+      },
+      {
+        "id": 113,
+        "name": "Mozzarella",
+        "type": "salate",
+        "ingredients": ["Blattsalate", "Tomaten", "Mozzarella"],
+        "vegetarian": true,
+        "price": [6.50, 7.50]
+      },
+      {
+        "id": 114,
+        "name": "Mano Speciale",
+        "type": "salate",
+        "ingredients": ["Blattsalate", "Ei", "Mais", "Tomaten", "Ruccola"],
+        "vegetarian": true,
+        "price": [6.50]
+      }
+    ]
+
+  
+  
