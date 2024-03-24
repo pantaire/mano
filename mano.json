@@ -5,12 +5,7 @@
       "type": "pizza",
       "ingredients": ["Tomaten", "Käse"],
       "vegetarian": true,
-      "price": {
-        "28cm": 6.00,
-        "30cm": 7.00,
-        "39cm": 12.00,
-        "party": 20.00
-      }
+      "price": [6.00,7.00,12.00,20.00]
     },
     {
       "id": 2,
@@ -734,7 +729,7 @@
       },
       {
         "id": 56,
-        "name": "Penna al Forno",
+        "name": "Penne al Forno",
         "type": "pasta",
         "ingredients": ["Hackfleischsoße mit Sahne"],
         "vegetarian": false,

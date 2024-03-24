@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             const priceAndIngredients = document.createElement('div');
             priceAndIngredients.className = 'd-flex justify-content-between';
-            priceAndIngredients.innerHTML = '<p>' + item.ingredients.join(', ') + '</p><p class="text-right">Price: $' + getPriceString(item.price) + '</p>';
+            priceAndIngredients.innerHTML = '<p>' + item.ingredients.join(', ') + '</p><p class="text-right">' + getPriceString(item.price) + '</p>';
             listItem.appendChild(priceAndIngredients);
 
             // Add green background to vegetarian meals
@@ -127,17 +127,19 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Function to get price string based on price object
-    // Function to get price string based on price object
-function getPriceString(price) {
-    if (typeof price === 'object') {
-        if ('klein' in price && 'gross' in price) {
-            return 'Klein: $' + price.klein.toFixed(2) + ', Gross: $' + price.gross.toFixed(2);
+    function getPriceString(price) {
+        console.log(price.length)
+        if (typeof price === 'object') {
+            if (price.length === 2) {
+                return 'Klein: €' + price[0].toFixed(2) + ', Groß: €' + price[1].toFixed(2);
+            } else if (price.length === 4) {
+                return 'Klein: €' + price[0].toFixed(2) + ', Mittel: €' + price[1].toFixed(2) + ', Groß: €' + price[2].toFixed(2) + ', Party: €' + price[3].toFixed(2);
+            } else {
+                return ''; // Invalid price object format
+            }
         } else {
-            return ''; // Invalid price object format
+            return '€' + price.toFixed(2);
         }
-    } else {
-        return '$' + price.toFixed(2);
     }
-}
 
 });
