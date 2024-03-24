@@ -321,7 +321,7 @@
         "28cm": 7.50,
         "30cm": 9.00,
         "39cm": 16.00,
-        "party": null
+        "party": "-"
       }
     },
     {
@@ -440,7 +440,7 @@
       },
       {
         "id": 36,
-        "name": "Sole B",
+        "name": "Sole",
         "type": "pizza",
         "ingredients": ["Spargel", "Eier"],
         "vegetarian": true,
@@ -982,16 +982,16 @@
       },
       {
         "id": 100,
-        "name": "Insalate Verde",
-        "type": "salate",
-        "ingredients": ["verschiedene grüne Blattsalate"],
+        "name": "Insalata Verde",
+        "type": "salad",
+        "ingredients": ["verschiedene grüne Blattsalat"],
         "vegetarian": true,
         "price": [3.50, 6.00]
       },
       {
         "id": 101,
         "name": "Cetrioli",
-        "type": "salate",
+        "type": "salad",
         "ingredients": ["Gurkensalat"],
         "vegetarian": true,
         "price": [5.00, 7.50]
@@ -999,15 +999,15 @@
       {
         "id": 102,
         "name": "Mais",
-        "type": "salate",
-        "ingredients": ["verschiedene grüne Blattsalate", "Mais", "Radieschen", "Karotten"],
+        "type": "salad",
+        "ingredients": ["verschiedene grüne Blattsalat", "Mais", "Radieschen", "Karotten"],
         "vegetarian": true,
         "price": [5.00, 7.00]
       },
       {
         "id": 103,
         "name": "Pomodori",
-        "type": "salate",
+        "type": "salad",
         "ingredients": ["Tomatensalat", "Zwiebeln"],
         "vegetarian": true,
         "price": [5.00, 7.50]
@@ -1015,92 +1015,89 @@
       {
         "id": 104,
         "name": "Tonno",
-        "type": "salate",
-        "ingredients": ["Blattsalate", "Thunfisch", "Zwiebeln", "Kapern", "Karotten"],
+        "type": "salad",
+        "ingredients": ["Blattsalat", "Thunfisch", "Zwiebeln", "Kapern", "Karotten"],
         "vegetarian": false,
         "price": [5.50, 7.50]
       },
       {
         "id": 105,
         "name": "Insalata Mista",
-        "type": "salate",
-        "ingredients": ["Blattsalate", "Paprika", "Käse", "Gurken", "Zwiebeln", "Karotten"],
+        "type": "salad",
+        "ingredients": ["Blattsalat", "Paprika", "Käse", "Gurken", "Zwiebeln", "Karotten"],
         "vegetarian": true,
         "price": [6.50, 7.50]
       },
       {
         "id": 106,
         "name": "Insalata Peperoni",
-        "type": "salate",
-        "ingredients": ["Blattsalate", "Paprika", "Käse", "Vorderschinken", "Champignons", "Oliven"],
+        "type": "salad",
+        "ingredients": ["Blattsalat", "Paprika", "Käse", "Vorderschinken", "Champignons", "Oliven"],
         "vegetarian": false,
         "price": [6.50, 7.50]
       },
       {
         "id": 107,
         "name": "Insalata Chef",
-        "type": "salate",
-        "ingredients": ["Blattsalate", "Tomaten", "Gurken", "Käse", "Ei", "Vorderschinken", "Champignons", "Oliven", "Artischocken"],
+        "type": "salad",
+        "ingredients": ["Blattsalat", "Tomaten", "Gurken", "Käse", "Ei", "Vorderschinken", "Champignons", "Oliven", "Artischocken"],
         "vegetarian": false,
         "price": [6.50, 8.50]
       },
       {
         "id": 108,
         "name": "Insalata Greca",
-        "type": "salate",
-        "ingredients": ["Blattsalate", "Schafskäse", "Oliven", "Peperoni", "Vorderschinken"],
+        "type": "salad",
+        "ingredients": ["Blattsalat", "Schafskäse", "Oliven", "Peperoni", "Vorderschinken"],
         "vegetarian": false,
         "price": [6.50, 7.50]
       },
       {
         "id": 109,
         "name": "Insalata Sicilia",
-        "type": "salate",
-        "ingredients": ["Blattsalate", "Kapern", "Sardellen", "Oliven", "Zwiebeln", "Tomaten", "Oregano"],
+        "type": "salad",
+        "ingredients": ["Blattsalat", "Kapern", "Sardellen", "Oliven", "Zwiebeln", "Tomaten", "Oregano"],
         "vegetarian": false,
         "price": [6.50, 8.00]
       },
       {
         "id": 110,
         "name": "Insalata California",
-        "type": "salate",
-        "ingredients": ["Blattsalate", "Tomaten", "Käse", "Ananas", "Vorderschinken"],
+        "type": "salad",
+        "ingredients": ["Blattsalat", "Tomaten", "Käse", "Ananas", "Vorderschinken"],
         "vegetarian": false,
         "price": [6.50, 7.50]
       },
       {
         "id": 111,
         "name": "Gamberetti",
-        "type": "salate",
-        "ingredients": ["Blattsalate", "Krabben", "Rucola", "Zwiebeln", "Pilze", "Mozzarella"],
+        "type": "salad",
+        "ingredients": ["Blattsalat", "Krabben", "Rucola", "Zwiebeln", "Pilze", "Mozzarella"],
         "vegetarian": false,
         "price": [6.50, 8.50]
       },
       {
         "id": 112,
         "name": "Portofino",
-        "type": "salate",
-        "ingredients": ["Blattsalate", "Vorderschinken", "Ei", "Tomaten", "Käse"],
+        "type": "salad",
+        "ingredients": ["Blattsalat", "Vorderschinken", "Ei", "Tomaten", "Käse"],
         "vegetarian": false,
         "price": [6.50, 7.50]
       },
       {
         "id": 113,
         "name": "Mozzarella",
-        "type": "salate",
-        "ingredients": ["Blattsalate", "Tomaten", "Mozzarella"],
+        "type": "salad",
+        "ingredients": ["Blattsalat", "Tomaten", "Mozzarella"],
         "vegetarian": true,
         "price": [6.50, 7.50]
       },
       {
         "id": 114,
         "name": "Mano Speciale",
-        "type": "salate",
-        "ingredients": ["Blattsalate", "Ei", "Mais", "Tomaten", "Rucola"],
+        "type": "salad",
+        "ingredients": ["Blattsalat", "Ei", "Mais", "Tomaten", "Rucola"],
         "vegetarian": true,
         "price": [6.50]
       }
     ]
-
-  
-  

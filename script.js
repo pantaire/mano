@@ -5,13 +5,13 @@ document.addEventListener('DOMContentLoaded', function () {
     // Array to store selected ingredients for filtering
     let selectedIngredients = [];
 
-    // Function to display menu items
+    // Function to display menu items as list group
     function displayMenuItems(items) {
         const menuList = document.getElementById('menu-list');
         menuList.innerHTML = ''; // Clear existing list
         items.forEach(function (item) {
             const listItem = document.createElement('li');
-            listItem.className = 'list-group-item mb-2';
+            listItem.className = 'list-group-item';
 
             const itemName = document.createElement('h5');
             itemName.innerHTML = getEmoji(item.type) + ' <span class="font-weight-bold">' + item.id + '</span> ' + item.name;
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
             const priceAndIngredients = document.createElement('div');
             priceAndIngredients.className = 'd-flex justify-content-between';
-            priceAndIngredients.innerHTML = '<p>' + item.ingredients.join(', ') + '</p><p class="text-right">Price: $' + item.price + '</p>';
+            priceAndIngredients.innerHTML = '<p>' + item.ingredients.join(', ') + '</p><p class="text-right">Price: $' + getPriceString(item.price) + '</p>';
             listItem.appendChild(priceAndIngredients);
 
             // Add green background to vegetarian meals
@@ -31,34 +31,39 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // Fetch JSON data and display menu items
-    fetch(jsonDataUrl)
-        .then(response => response.json())
-        .then(data => displayMenuItems(data))
-        .catch(error => console.error('Error fetching JSON:', error));
-
-    // Filter menu items based on selected item type and ingredients
-    function filterMenuItems() {
-        const filterValue = document.getElementById('item-filter').value;
-        const searchTerm = selectedIngredients.join(' ').toLowerCase();
+    // Function to filter menu items based on selected item type and ingredients
+    function filterMenuItems(filterValue) {
         fetch(jsonDataUrl)
             .then(response => response.json())
             .then(data => {
-                const filteredItems = data.filter(function (item) {
-                    return (filterValue === 'all' || item.type.toLowerCase() === filterValue) &&
-                        selectedIngredients.every(function (ingredient) {
-                            return item.ingredients.some(function (itemIngredient) {
-                                return itemIngredient.toLowerCase().includes(ingredient.toLowerCase());
-                            });
-                        });
+                let filteredItems = data.filter(item => {
+                    if (filterValue === 'all') {
+                        return true;
+                    } else {
+                        return item.type.toLowerCase() === filterValue.toLowerCase();
+                    }
                 });
                 displayMenuItems(filteredItems);
             })
             .catch(error => console.error('Error fetching JSON:', error));
     }
 
-    // Event listener for the item filter change
-    document.getElementById('item-filter').addEventListener('change', filterMenuItems);
+    // Fetch JSON data and display all menu items initially
+    filterMenuItems('all');
+
+    // Event listeners for filter buttons
+    document.getElementById('all-filter').addEventListener('click', function () {
+        filterMenuItems('all');
+    });
+    document.getElementById('pizza-filter').addEventListener('click', function () {
+        filterMenuItems('pizza');
+    });
+    document.getElementById('pasta-filter').addEventListener('click', function () {
+        filterMenuItems('pasta');
+    });
+    document.getElementById('salad-filter').addEventListener('click', function () {
+        filterMenuItems('salad');
+    });
 
     // Function to get emoji based on item type
     function getEmoji(type) {
@@ -81,7 +86,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (ingredient) {
             selectedIngredients.push(ingredient);
             renderPillBox(ingredient);
-            filterMenuItems();
+            // filterMenuItems(); // Uncomment this line if you want to apply ingredient filter immediately
             ingredientInput.value = ''; // Clear the input after adding ingredient
         }
     });
@@ -94,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function () {
             if (ingredient) {
                 selectedIngredients.push(ingredient);
                 renderPillBox(ingredient);
-                filterMenuItems();
+                // filterMenuItems(); // Uncomment this line if you want to apply ingredient filter immediately
                 ingredientInput.value = ''; // Clear the input after adding ingredient
             }
         }
@@ -114,10 +119,25 @@ document.addEventListener('DOMContentLoaded', function () {
             selectedIngredients = selectedIngredients.filter(function (item) {
                 return item !== ingredient;
             });
-            filterMenuItems();
+            // filterMenuItems(); // Uncomment this line if you want to apply ingredient filter immediately
             pillBoxContainer.removeChild(pillBox);
         });
         pillBox.appendChild(removeIcon);
         pillBoxContainer.appendChild(pillBox);
     }
+
+    // Function to get price string based on price object
+    // Function to get price string based on price object
+function getPriceString(price) {
+    if (typeof price === 'object') {
+        if ('klein' in price && 'gross' in price) {
+            return 'Klein: $' + price.klein.toFixed(2) + ', Gross: $' + price.gross.toFixed(2);
+        } else {
+            return ''; // Invalid price object format
+        }
+    } else {
+        return '$' + price.toFixed(2);
+    }
+}
+
 });
