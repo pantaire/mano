@@ -42,7 +42,7 @@
       "id": 4,
       "name": "Funghi",
       "type": "pizza",
-      "ingredients": ["frische Champignons"],
+      "ingredients": ["Champignons"],
       "vegetarian": true,
       "price": {
         "28cm": 6.50,
@@ -105,7 +105,7 @@
     },
     {
       "id": 9,
-      "name": "Tonno C",
+      "name": "Tonno",
       "type": "pizza",
       "ingredients": ["Thunfisch", "Zwiebeln", "Oliven"],
       "vegetarian": false,
@@ -118,7 +118,7 @@
     },
     {
       "id": 10,
-      "name": "Sicilia C",
+      "name": "Sicilia",
       "type": "pizza",
       "ingredients": ["Sardellen", "Oliven", "Kapern"],
       "vegetarian": false,
@@ -209,9 +209,9 @@
     },
     {
       "id": 17,
-      "name": "Gamberetti G",
+      "name": "Gamberetti",
       "type": "pizza",
-      "ingredients": ["Krabben", "Ruccola", "Knoblauch"],
+      "ingredients": ["Krabben", "Rucola", "Knoblauch"],
       "vegetarian": false,
       "price": {
         "28cm": 8.00,
@@ -222,7 +222,7 @@
     },
     {
       "id": 18,
-      "name": "Marinara G",
+      "name": "Marinara",
       "type": "pizza",
       "ingredients": ["Meeresfrüchte"],
       "vegetarian": false,
@@ -300,7 +300,7 @@
     },
     {
       "id": 25,
-      "name": "Mano Pizza G",
+      "name": "Mano Pizza",
       "type": "pizza",
       "ingredients": ["Champignons", "Krabben", "Mozzarella", "Parmaschinken"],
       "vegetarian": false,
@@ -455,7 +455,7 @@
         "id": 37,
         "name": "Amore Mio",
         "type": "pizza",
-        "ingredients": ["Tomatenscheiben", "Ruccola", "Spinat", "Spargel"],
+        "ingredients": ["Tomatenscheiben", "Rucola", "Spinat", "Spargel"],
         "vegetarian": true,
         "price": {
           "28cm": 7.00,
@@ -531,7 +531,7 @@
       },
       {
         "id": 43,
-        "name": "Ruccola",
+        "name": "Rucola",
         "type": "pizza",
         "ingredients": ["Parmesan", "Tomatenscheiben"],
         "vegetarian": true,
@@ -544,9 +544,9 @@
       },
       {
         "id": 44,
-        "name": "Gigio C",
+        "name": "Gigio",
         "type": "pizza",
-        "ingredients": ["Thunfisch", "Ruccola", "Krabben"],
+        "ingredients": ["Thunfisch", "Rucola", "Krabben"],
         "vegetarian": false,
         "price": {
           "28cm": 7.50,
@@ -583,7 +583,7 @@
       },
       {
         "id": 47,
-        "name": "Uova B",
+        "name": "Uova",
         "type": "pizza",
         "ingredients": ["3 Eier", "Parmaschinken"],
         "vegetarian": false,
@@ -598,7 +598,7 @@
         "id": 48,
         "name": "Granapadana",
         "type": "pizza",
-        "ingredients": ["Parmaschinken", "Ruccola", "Parmesan"],
+        "ingredients": ["Parmaschinken", "Rucola", "Parmesan"],
         "vegetarian": false,
         "price": {
           "28cm": 7.50,
@@ -1072,7 +1072,7 @@
         "id": 111,
         "name": "Gamberetti",
         "type": "salate",
-        "ingredients": ["Blattsalate", "Krabben", "Ruccola", "Zwiebeln", "Pilze", "Mozzarella"],
+        "ingredients": ["Blattsalate", "Krabben", "Rucola", "Zwiebeln", "Pilze", "Mozzarella"],
         "vegetarian": false,
         "price": [6.50, 8.50]
       },
@@ -1096,7 +1096,7 @@
         "id": 114,
         "name": "Mano Speciale",
         "type": "salate",
-        "ingredients": ["Blattsalate", "Ei", "Mais", "Tomaten", "Ruccola"],
+        "ingredients": ["Blattsalate", "Ei", "Mais", "Tomaten", "Rucola"],
         "vegetarian": true,
         "price": [6.50]
       }
