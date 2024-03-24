@@ -128,17 +128,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Function to get price string based on price object
     function getPriceString(price) {
-        console.log(price.length)
         if (typeof price === 'object') {
             if (price.length === 2) {
-                return 'Klein: €' + price[0].toFixed(2) + ', Groß: €' + price[1].toFixed(2);
+                return 'Klein: € ' + price[0].toFixed(2) + ', Groß: € ' + price[1].toFixed(2);
             } else if (price.length === 4) {
-                return 'Klein: €' + price[0].toFixed(2) + ', Mittel: €' + price[1].toFixed(2) + ', Groß: €' + price[2].toFixed(2) + ', Party: €' + price[3].toFixed(2);
+                return 'Klein: € ' + price[0].toFixed(2) + ', Mittel: € ' + price[1].toFixed(2) + ', Groß: € ' + price[2].toFixed(2) + ', Party: € ' + price[3].toFixed(2);
             } else {
                 return ''; // Invalid price object format
             }
         } else {
-            return '€' + price.toFixed(2);
+            return '€ ' + price.toFixed(2);
         }
     }
 

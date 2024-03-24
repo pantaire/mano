@@ -979,7 +979,7 @@
         "id": 100,
         "name": "Insalata Verde",
         "type": "salad",
-        "ingredients": ["verschiedene grüne Blattsalat"],
+        "ingredients": ["verschiedene grüne Blattsalate"],
         "vegetarian": true,
         "price": [3.50, 6.00]
       },
@@ -995,7 +995,7 @@
         "id": 102,
         "name": "Mais",
         "type": "salad",
-        "ingredients": ["verschiedene grüne Blattsalat", "Mais", "Radieschen", "Karotten"],
+        "ingredients": ["verschiedene grüne Blattsalate", "Mais", "Radieschen", "Karotten"],
         "vegetarian": true,
         "price": [5.00, 7.00]
       },
@@ -1011,7 +1011,7 @@
         "id": 104,
         "name": "Tonno",
         "type": "salad",
-        "ingredients": ["Blattsalat", "Thunfisch", "Zwiebeln", "Kapern", "Karotten"],
+        "ingredients": ["Blattsalatb", "Thunfisch", "Zwiebeln", "Kapern", "Karotten"],
         "vegetarian": false,
         "price": [5.50, 7.50]
       },
@@ -1093,6 +1093,22 @@
         "type": "salad",
         "ingredients": ["Blattsalat", "Ei", "Mais", "Tomaten", "Rucola"],
         "vegetarian": true,
-        "price": [6.50]
+        "price": [6.50, 8.50]
+      },
+      {
+        "id": 116,
+        "name": "Insalata Chicken",
+        "type": "salad",
+        "ingredients": ["Blattsalat", "Hähnchenfleisch", "Ananas", "Tomaten", "Gurken"],
+        "vegetarian": false,
+        "price": [6.50, 8.50]
+      },
+      {
+        "id": 117,
+        "name": "Insalata Italia",
+        "type": "salad",
+        "ingredients": ["Blattsalat", "Tomaten", "Gurken", "Käse", "Ei", "Paprika", "Vorderschinken", "Oliven", "Peperoni", "Thunfisch"],
+        "vegetarian": false,
+        "price": [7.00, 8.50]
       }
     ]
