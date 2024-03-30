@@ -8,8 +8,15 @@ document.addEventListener('DOMContentLoaded', function () {
     typeFilterButtons.forEach(button => {
         button.addEventListener('click', function () {
             console.log('Type filter button clicked:', this.id);
-            typeFilterButtons.forEach(btn => btn.classList.remove('btn-primary'));
-            this.classList.add('btn-primary');
+            typeFilterButtons.forEach(btn => {
+                if (btn === this) {
+                    btn.classList.remove('btn-secondary');
+                    btn.classList.add('btn-success');
+                } else {
+                    btn.classList.remove('btn-success');
+                    btn.classList.add('btn-secondary');
+                }
+            });
             const filterValue = this.id.replace('-filter', '');
             console.log('Filter value:', filterValue);
             filterMenuItems(filterValue); // Pass filterValue as argument
