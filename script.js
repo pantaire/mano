@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
-    // Function to filter menu items based on selected item type and ingredients
+    // Function to filter menu items based on selected item type, ingredients, and vegetarian status
     function filterMenuItems(filterValue) {
         if (filterValue === undefined) filterValue = 'all'; // Handle undefined filterValue
         fetch(jsonDataUrl)
@@ -56,7 +56,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 let filteredItems = data.filter(item => {
                     const matchesType = filterValue === 'all' || item.type.toLowerCase() === filterValue.toLowerCase();
                     const matchesIngredients = selectedIngredients.length === 0 || selectedIngredients.every(ingredient => item.ingredients.map(i => i.toLowerCase()).some(i => i.includes(ingredient.toLowerCase())));
-                    return matchesType && matchesIngredients;
+                    const matchesVegetarian = !document.getElementById('vegetarian-filter').checked || item.vegetarian;
+                    return matchesType && matchesIngredients && matchesVegetarian;
                 });
                 displayMenuItems(filteredItems);
             })
@@ -88,6 +89,15 @@ document.addEventListener('DOMContentLoaded', function () {
             }
         }
     });
+
+    // Event listener for the vegetarian filter checkbox
+    document.getElementById('vegetarian-filter').addEventListener('change', function () {
+        const vegetarianFilter = this.checked;
+        console.log('Vegetarian filter:', vegetarianFilter);
+        filterMenuItems(getActiveFilter()); // Filter menu items
+    });
+
+    
 
     // Function to render pillbox for selected ingredient
     function renderPillBox(ingredient) {
