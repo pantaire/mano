@@ -13,12 +13,7 @@
       "type": "pizza",
       "ingredients": ["Salami"],
       "vegetarian": false,
-      "price": {
-        "28cm": 6.50,
-        "30cm": 8.00,
-        "39cm": 12.50,
-        "party": 24.00
-      }
+      "price": [6.50,8.00,12.50,24.00]
     },
     {
       "id": 3,
@@ -26,12 +21,12 @@
       "type": "pizza",
       "ingredients": ["Vorderschinken"],
       "vegetarian": false,
-      "price": {
-        "28cm": 6.50,
-        "30cm": 8.00,
-        "39cm": 12.50,
-        "party": 24.00
-      }
+      "price": [
+        6.50,
+        8.00,
+        12.50,
+        24.00
+      ]
     },
     {
       "id": 4,
@@ -39,12 +34,12 @@
       "type": "pizza",
       "ingredients": ["Champignons"],
       "vegetarian": true,
-      "price": {
-        "28cm": 6.50,
-        "30cm": 8.00,
-        "39cm": 12.50,
-        "party": 24.00
-      }
+      "price": [
+        6.50,
+        8.00,
+        12.50,
+        24.00
+      ]
     },
     {
       "id": 5,
@@ -52,12 +47,12 @@
       "type": "pizza",
       "ingredients": ["Artischocken"],
       "vegetarian": true,
-      "price": {
-        "28cm": 6.50,
-        "30cm": 8.00,
-        "39cm": 12.50,
-        "party": 24.00
-      }
+      "price": [
+        6.50,
+        8.00,
+        12.50,
+        24.00
+      ]
     },
     {
       "id": 6,
@@ -65,12 +60,12 @@
       "type": "pizza",
       "ingredients": ["Paprika-Mix"],
       "vegetarian": true,
-      "price": {
-        "28cm": 6.50,
-        "30cm": 8.00,
-        "39cm": 12.50,
-        "party": 24.00
-      }
+      "price": [
+        6.50,
+        8.00,
+        12.50,
+        24.00
+      ]
     },
     {
       "id": 7,
@@ -78,12 +73,12 @@
       "type": "pizza",
       "ingredients": ["Brokkoli"],
       "vegetarian": true,
-      "price": {
-        "28cm": 6.50,
-        "30cm": 8.00,
-        "39cm": 12.50,
-        "party": 24.00
-      }
+      "price": [
+        6.50,
+        8.00,
+        12.50,
+        24.00
+      ]
     },
     {
       "id": 8,
@@ -91,12 +86,12 @@
       "type": "pizza",
       "ingredients": ["Spinat", "Knoblauch"],
       "vegetarian": true,
-      "price": {
-        "28cm": 6.50,
-        "30cm": 8.00,
-        "39cm": 12.50,
-        "party": 24.00
-      }
+      "price": [
+        6.50,
+        8.00,
+        12.50,
+        24.00
+      ]
     },
     {
       "id": 9,
@@ -104,12 +99,12 @@
       "type": "pizza",
       "ingredients": ["Thunfisch", "Zwiebeln", "Oliven"],
       "vegetarian": false,
-      "price": {
-        "28cm": 7.00,
-        "30cm": 9.00,
-        "39cm": 14.50,
-        "party": 26.00
-      }
+      "price": [
+        7.00,
+        9.00,
+        14.50,
+        26.00
+      ]
     },
     {
       "id": 10,
@@ -117,12 +112,12 @@
       "type": "pizza",
       "ingredients": ["Sardellen", "Oliven", "Kapern"],
       "vegetarian": false,
-      "price": {
-        "28cm": 7.00,
-        "30cm": 9.00,
-        "39cm": 14.50,
-        "party": 26.00
-      }
+      "price": [
+        7.00,
+        9.00,
+        14.50,
+        26.00
+      ]
     },
     {
       "id": 11,
@@ -130,12 +125,12 @@
       "type": "pizza",
       "ingredients": ["scharfe Salami"],
       "vegetarian": false,
-      "price": {
-        "28cm": 7.00,
-        "30cm": 9.00,
-        "39cm": 14.50,
-        "party": 26.00
-      }
+      "price": [
+        7.00,
+        9.00,
+        14.50,
+        26.00
+      ]
     },
     {
       "id": 12,
@@ -143,12 +138,12 @@
       "type": "pizza",
       "ingredients": ["Vorderschinken", "Oliven", "frische Champignons", "Artischocken"],
       "vegetarian": false,
-      "price": {
-        "28cm": 7.00,
-        "30cm": 9.00,
-        "39cm": 15.00,
-        "party": 27.00
-      }
+      "price": [
+        7.00,
+        9.00,
+        15.00,
+        27.00
+      ]
     },
     {
       "id": 13,
@@ -156,12 +151,12 @@
       "type": "pizza",
       "ingredients": ["Vorderschinken", "Salami", "frische Champignons", "Peperoni"],
       "vegetarian": false,
-      "price": {
-        "28cm": 7.00,
-        "30cm": 9.00,
-        "39cm": 16.00,
-        "party": 27.00
-      }
+      "price": [
+        7.00,
+        9.00,
+        16.00,
+        27.00
+      ]
     },
     {
       "id": 14,
@@ -169,12 +164,12 @@
       "type": "pizza",
       "ingredients": ["Vorderschinken", "frische Champignons"],
       "vegetarian": false,
-      "price": {
-        "28cm": 7.00,
-        "30cm": 8.00,
-        "39cm": 15.00,
-        "party": 25.00
-      }
+      "price": [
+        7.00,
+        8.00,
+        15.00,
+        25.00
+      ]
     },
     {
       "id": 15,
@@ -182,12 +177,12 @@
       "type": "pizza",
       "ingredients": ["Vorderschinken", "Salami"],
       "vegetarian": false,
-      "price": {
-        "28cm": 7.00,
-        "30cm": 8.00,
-        "39cm": 15.00,
-        "party": 25.00
-      }
+      "price": [
+        7.00,
+        8.00,
+        15.00,
+        25.00
+      ]
     },
     {
       "id": 16,
@@ -195,12 +190,12 @@
       "type": "pizza",
       "ingredients": ["Salami", "frische Champignons"],
       "vegetarian": false,
-      "price": {
-        "28cm": 7.00,
-        "30cm": 8.00,
-        "39cm": 15.00,
-        "party": 25.00
-      }
+      "price": [
+        7.00,
+        8.00,
+        15.00,
+        25.00
+      ]
     },
     {
       "id": 17,
@@ -208,12 +203,12 @@
       "type": "pizza",
       "ingredients": ["Krabben", "Rucola", "Knoblauch"],
       "vegetarian": false,
-      "price": {
-        "28cm": 8.00,
-        "30cm": 9.00,
-        "39cm": 17.50,
-        "party": 27.00
-      }
+      "price": [
+        8.00,
+        9.00,
+        17.50,
+        27.00
+      ]
     },
     {
       "id": 18,
@@ -221,12 +216,12 @@
       "type": "pizza",
       "ingredients": ["Meeresfrüchte"],
       "vegetarian": false,
-      "price": {
-        "28cm": 8.00,
-        "30cm": 9.00,
-        "39cm": 17.50,
-        "party": 27.00
-      }
+      "price": [
+        8.00,
+        9.00,
+        17.50,
+        27.00
+      ]
     },
     {
       "id": 19,
@@ -234,12 +229,12 @@
       "type": "pizza",
       "ingredients": ["Hackfleisch", "Zwiebeln"],
       "vegetarian": false,
-      "price": {
-        "28cm": 7.00,
-        "30cm": 8.00,
-        "39cm": 16.00,
-        "party": 25.00
-      }
+      "price": [
+        7.00,
+        8.00,
+        16.00,
+        25.00
+      ]
     },
     {
       "id": 20,
@@ -247,12 +242,12 @@
       "type": "pizza",
       "ingredients": ["vier versch. Käsesorten"],
       "vegetarian": true,
-      "price": {
-        "28cm": 8.00,
-        "30cm": 9.00,
-        "39cm": 16.00,
-        "party": 27.00
-      }
+      "price": [
+        8.00,
+        9.00,
+        16.00,
+        27.00
+      ]
     },
     {
       "id": 21,
@@ -260,12 +255,12 @@
       "type": "pizza",
       "ingredients": ["Zucchini", "Spinat", "Spargel", "Paprika", "Broccoli"],
       "vegetarian": true,
-      "price": {
-        "28cm": 7.00,
-        "30cm": 9.00,
-        "39cm": 17.50,
-        "party": 27.00
-      }
+      "price": [
+        7.00,
+        9.00,
+        17.50,
+        27.00
+      ]
     },
     {
       "id": 23,
@@ -273,12 +268,12 @@
       "type": "pizza",
       "ingredients": ["Vorderschinken", "Ananas"],
       "vegetarian": false,
-      "price": {
-        "28cm": 7.00,
-        "30cm": 8.50,
-        "39cm": 15.00,
-        "party": 25.00
-      }
+      "price": [
+        7.00,
+        8.50,
+        15.00,
+        25.00
+      ]
     },
     {
       "id": 24,
@@ -286,12 +281,12 @@
       "type": "pizza",
       "ingredients": ["Vorderschinken", "Salami", "Pilze"],
       "vegetarian": false,
-      "price": {
-        "28cm": 7.00,
-        "30cm": 8.50,
-        "39cm": 16.00,
-        "party": 25.00
-      }
+      "price": [
+        7.00,
+        8.50,
+        16.00,
+        25.00
+      ]
     },
     {
       "id": 25,
@@ -299,12 +294,12 @@
       "type": "pizza",
       "ingredients": ["Champignons", "Krabben", "Mozzarella", "Parmaschinken"],
       "vegetarian": false,
-      "price": {
-        "28cm": 7.50,
-        "30cm": 9.00,
-        "39cm": 18.00,
-        "party": 27.00
-      }
+      "price": [
+        7.50,
+        9.00,
+        18.00,
+        27.00
+      ]
     },
     {
       "id": 26,
@@ -312,12 +307,12 @@
       "type": "pizza",
       "ingredients": ["Gefüllt mit Salami", "Vorderschinken", "Pilze"],
       "vegetarian": false,
-      "price": {
-        "28cm": 7.50,
-        "30cm": 9.00,
-        "39cm": 16.00,
-        "party": "-"
-      }
+      "price": [
+        7.50,
+        9.00,
+        16.00,
+        "-"
+      ]
     },
     {
       "id": 27,
@@ -325,12 +320,12 @@
       "type": "pizza",
       "ingredients": ["scharfe Salami", "Peperoni"],
       "vegetarian": false,
-      "price": {
-        "28cm": 7.00,
-        "30cm": 8.50,
-        "39cm": 15.00,
-        "party": 25.00
-      }
+      "price": [
+        7.00,
+        8.50,
+        15.00,
+        25.00
+      ]
     },
     {
       "id": 28,
@@ -338,12 +333,12 @@
       "type": "pizza",
       "ingredients": ["Salami", "Peperoni"],
       "vegetarian": false,
-      "price": {
-        "28cm": 7.00,
-        "30cm": 8.50,
-        "39cm": 15.00,
-        "party": 25.00
-      }
+      "price": [
+        7.00,
+        8.50,
+        15.00,
+        25.00
+      ]
     },
     {
       "id": 29,
@@ -351,12 +346,12 @@
       "type": "pizza",
       "ingredients": ["Putenbrust", "Spargel", "Hollandaise-Sauce"],
       "vegetarian": false,
-      "price": {
-        "28cm": 8.00,
-        "30cm": 9.00,
-        "39cm": 17.50,
-        "party": 27.00
-      }
+      "price": [
+        8.00,
+        9.00,
+        17.50,
+        27.00
+      ]
     },
     {
         "id": 30,
@@ -364,12 +359,12 @@
         "type": "pizza",
         "ingredients": ["Tomaten", "Zwiebeln", "Knoblauch", "scharfe Peperoni"],
         "vegetarian": false,
-        "price": {
-          "28cm": 7.50,
-          "30cm": 9.00,
-          "39cm": 16.00,
-          "party": 27.00
-        }
+        "price": [
+          7.50,
+          9.00,
+          16.00,
+          27.00
+        ]
       },
       {
         "id": 31,
@@ -377,12 +372,12 @@
         "type": "pizza",
         "ingredients": ["Vorderschinken", "Artischocken"],
         "vegetarian": false,
-        "price": {
-          "28cm": 7.00,
-          "30cm": 8.50,
-          "39cm": 16.00,
-          "party": 26.00
-        }
+        "price": [
+          7.00,
+          8.50,
+          16.00,
+          26.00
+        ]
       },
       {
         "id": 32,
@@ -390,12 +385,12 @@
         "type": "pizza",
         "ingredients": ["Vorderschinken", "Salami", "Pilze"],
         "vegetarian": false,
-        "price": {
-          "28cm": 7.50,
-          "30cm": 9.00,
-          "39cm": 16.00,
-          "party": 26.00
-        }
+        "price": [
+          7.50,
+          9.00,
+          16.00,
+          26.00
+        ]
       },
       {
         "id": 33,
@@ -403,9 +398,9 @@
         "type": "pizza",
         "ingredients": ["Vorderschinken", "Salami", "Pilze"],
         "vegetarian": false,
-        "price": {
+        "price": [
           "18cm": 4.00
-        }
+        ]
       },
       {
         "id": 34,
@@ -413,12 +408,12 @@
         "type": "pizza",
         "ingredients": ["Parmaschinken"],
         "vegetarian": false,
-        "price": {
-          "28cm": 8.00,
-          "30cm": 9.00,
-          "39cm": 17.00,
-          "party": 27.00
-        }
+        "price": [
+          8.00,
+          9.00,
+          17.00,
+          27.00
+        ]
       },
       {
         "id": 35,
@@ -426,12 +421,12 @@
         "type": "pizza",
         "ingredients": ["Auberginen", "Parmesan"],
         "vegetarian": true,
-        "price": {
-          "28cm": 7.00,
-          "30cm": 8.00,
-          "39cm": 16.00,
-          "party": 24.00
-        }
+        "price": [
+          7.00,
+          8.00,
+          16.00,
+          24.00
+        ]
       },
       {
         "id": 36,
@@ -439,12 +434,12 @@
         "type": "pizza",
         "ingredients": ["Spargel", "Eier"],
         "vegetarian": true,
-        "price": {
-          "28cm": 7.00,
-          "30cm": 8.00,
-          "39cm": 16.00,
-          "party": 24.00
-        }
+        "price": [
+          7.00,
+          8.00,
+          16.00,
+          24.00
+        ]
       },
       {
         "id": 37,
@@ -452,12 +447,12 @@
         "type": "pizza",
         "ingredients": ["Tomatenscheiben", "Rucola", "Spinat", "Spargel"],
         "vegetarian": true,
-        "price": {
-          "28cm": 7.00,
-          "30cm": 8.50,
-          "39cm": 16.00,
-          "party": 26.00
-        }
+        "price": [
+          7.00,
+          8.50,
+          16.00,
+          26.00
+        ]
       },
       {
         "id": 38,
@@ -465,12 +460,12 @@
         "type": "pizza",
         "ingredients": ["scharfe Salami", "Salami", "Vorderschinken", "Parmaschinken"],
         "vegetarian": false,
-        "price": {
-          "28cm": 8.50,
-          "30cm": 9.50,
-          "39cm": 17.00,
-          "party": 27.00
-        }
+        "price": [
+          8.50,
+          9.50,
+          17.00,
+          27.00
+        ]
       },
       {
         "id": 39,
@@ -478,12 +473,12 @@
         "type": "pizza",
         "ingredients": ["Vorderschinken", "Peperoni", "Schafskäse"],
         "vegetarian": false,
-        "price": {
-          "28cm": 7.50,
-          "30cm": 8.50,
-          "39cm": 17.00,
-          "party": 26.00
-        }
+        "price": [
+          7.50,
+          8.50,
+          17.00,
+          26.00
+        ]
       },
       {
         "id": 40,
@@ -491,12 +486,12 @@
         "type": "pizza",
         "ingredients": ["Vorderschinken", "Paprika"],
         "vegetarian": false,
-        "price": {
-          "28cm": 7.00,
-          "30cm": 8.00,
-          "39cm": 15.00,
-          "party": 25.00
-        }
+        "price": [
+          7.00,
+          8.00,
+          15.00,
+          25.00
+        ]
       },
       {
         "id": 41,
@@ -504,12 +499,12 @@
         "type": "pizza",
         "ingredients": ["Mais", "Broccoli", "Zwiebeln", "Peperoni"],
         "vegetarian": true,
-        "price": {
-          "28cm": 7.00,
-          "30cm": 8.00,
-          "39cm": 15.00,
-          "party": 25.00
-        }
+        "price": [
+          7.00,
+          8.00,
+          15.00,
+          25.00
+        ]
       },
       {
         "id": 42,
@@ -517,12 +512,12 @@
         "type": "pizza",
         "ingredients": ["Tomatenscheiben", "Mozzarella"],
         "vegetarian": true,
-        "price": {
-          "28cm": 7.00,
-          "30cm": 8.00,
-          "39cm": 15.00,
-          "party": 25.00
-        }
+        "price": [
+          7.00,
+          8.00,
+          15.00,
+          25.00
+        ]
       },
       {
         "id": 43,
@@ -530,12 +525,12 @@
         "type": "pizza",
         "ingredients": ["Parmesan", "Tomatenscheiben"],
         "vegetarian": true,
-        "price": {
-          "28cm": 7.00,
-          "30cm": 8.00,
-          "39cm": 15.00,
-          "party": 25.00
-        }
+        "price": [
+          7.00,
+          8.00,
+          15.00,
+          25.00
+        ]
       },
       {
         "id": 44,
@@ -543,12 +538,12 @@
         "type": "pizza",
         "ingredients": ["Thunfisch", "Rucola", "Krabben"],
         "vegetarian": false,
-        "price": {
-          "28cm": 7.50,
-          "30cm": 9.00,
-          "39cm": 17.00,
-          "party": 27.00
-        }
+        "price": [
+          7.50,
+          9.00,
+          17.00,
+          27.00
+        ]
       },
       {
         "id": 45,
@@ -556,12 +551,12 @@
         "type": "pizza",
         "ingredients": ["Paprika", "Zwiebeln", "Oliven", "Pilze", "Artischocken", "Vorderschinken", "Salami"],
         "vegetarian": false,
-        "price": {
-          "28cm": 8.50,
-          "30cm": 9.50,
-          "39cm": 17.50,
-          "party": 28.00
-        }
+        "price": [
+          8.50,
+          9.50,
+          17.50,
+          28.00
+        ]
       },
       {
         "id": 46,
@@ -569,12 +564,12 @@
         "type": "pizza",
         "ingredients": ["scharfe Salami", "scharfe Peperoni"],
         "vegetarian": false,
-        "price": {
-          "28cm": 7.00,
-          "30cm": 8.00,
-          "39cm": 16.00,
-          "party": 26.00
-        }
+        "price": [
+          7.00,
+          8.00,
+          16.00,
+          26.00
+        ]
       },
       {
         "id": 47,
@@ -582,12 +577,12 @@
         "type": "pizza",
         "ingredients": ["3 Eier", "Parmaschinken"],
         "vegetarian": false,
-        "price": {
-          "28cm": 7.50,
-          "30cm": 8.50,
-          "39cm": 17.00,
-          "party": 25.00
-        }
+        "price": [
+          7.50,
+          8.50,
+          17.00,
+          25.00
+        ]
       },
       {
         "id": 48,
@@ -595,12 +590,12 @@
         "type": "pizza",
         "ingredients": ["Parmaschinken", "Rucola", "Parmesan"],
         "vegetarian": false,
-        "price": {
-          "28cm": 7.50,
-          "30cm": 9.00,
-          "39cm": 18.00,
-          "party": 26.00
-        }
+        "price": [
+          7.50,
+          9.00,
+          18.00,
+          26.00
+        ]
       },
       {
         "id": 49,
@@ -608,12 +603,12 @@
         "type": "pizza",
         "ingredients": ["Sauerrahm", "Parmaschinken", "Zwiebeln", "Pilze"],
         "vegetarian": false,
-        "price": {
-          "28cm": 7.00,
-          "30cm": 8.50,
-          "39cm": 17.00,
-          "party": 26.00
-        }
+        "price": [
+          7.00,
+          8.50,
+          17.00,
+          26.00
+        ]
       },
       {
         "id": 50,
@@ -621,12 +616,12 @@
         "type": "pizza",
         "ingredients": ["Sauerrahm", "Vorderschinken", "Zwiebeln", "Pilze"],
         "vegetarian": false,
-        "price": {
-          "28cm": 7.00,
-          "30cm": 8.50,
-          "39cm": 17.00,
-          "party": 25.00
-        }
+        "price": [
+          7.00,
+          8.50,
+          17.00,
+          25.00
+        ]
       },
       {
         "id": 51,
@@ -634,12 +629,12 @@
         "type": "pizza",
         "ingredients": ["Sauerrahm", "Zwiebeln", "Pilze"],
         "vegetarian": false,
-        "price": {
-          "28cm": 7.00,
-          "30cm": 8.50,
-          "39cm": 17.00,
-          "party": 25.00
-        }
+        "price": [
+          7.00,
+          8.50,
+          17.00,
+          25.00
+        ]
       },
       {
         "id": 52,
@@ -647,12 +642,12 @@
         "type": "pizza",
         "ingredients": ["Sauerrahm", "Pilze", "Spinat"],
         "vegetarian": true,
-        "price": {
-          "28cm": 7.00,
-          "30cm": 8.50,
-          "39cm": 17.00,
-          "party": 25.00
-        }
+        "price": [
+          7.00,
+          8.50,
+          17.00,
+          25.00
+        ]
       },
       {
         "id": 53,
@@ -660,12 +655,12 @@
         "type": "pizza",
         "ingredients": ["Sauerrahm", "Pilze", "Spinat", "Zucchini", "Spargel", "Aubergine"],
         "vegetarian": true,
-        "price": {
-          "28cm": 7.50,
-          "30cm": 9.00,
-          "39cm": 18.00,
-          "party": 27.00
-        }
+        "price": [
+          7.50,
+          9.00,
+          18.00,
+          27.00
+        ]
       },
       {
         "id": 201,
@@ -673,12 +668,12 @@
         "type": "pizza",
         "ingredients": ["Gorgonzola", "Spinat"],
         "vegetarian": true,
-        "price": {
-          "28cm": 7.50,
-          "30cm": 9.00,
-          "39cm": 16.00,
-          "party": 26.00
-        }
+        "price": [
+          7.50,
+          9.00,
+          16.00,
+          26.00
+        ]
       },
       {
         "id": 202,
@@ -686,12 +681,12 @@
         "type": "pizza",
         "ingredients": ["scharfe Salami", "Zwiebeln", "Oliven", "scharfe Peperoni"],
         "vegetarian": false,
-        "price": {
-          "28cm": 7.00,
-          "30cm": 9.00,
-          "39cm": 17.00,
-          "party": 26.00
-        }
+        "price": [
+          7.00,
+          9.00,
+          17.00,
+          26.00
+        ]
       },
       {
         "id": 203,
@@ -699,12 +694,12 @@
         "type": "pizza",
         "ingredients": ["Sucuk", "Feta", "Paprika", "Peperoni", "Knoblauch"],
         "vegetarian": false,
-        "price": {
-          "28cm": 7.50,
-          "30cm": 9.50,
-          "39cm": 16.50,
-          "party": 26.00
-        }
+        "price": [
+          7.50,
+          9.50,
+          16.50,
+          26.00
+        ]
       },
       {
         "id": 204,
@@ -712,12 +707,7 @@
         "type": "pizza",
         "ingredients": ["Sucuk", "Peperoni", "Champignons", "Feta"],
         "vegetarian": false,
-        "price": {
-          "28cm": 7.50,
-          "30cm": 9.50,
-          "39cm": 16.00,
-          "party": 26.00
-        }
+        "price": [7.50,9.50,16.00,26.00]
       },
       {
         "id": 55,
