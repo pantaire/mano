@@ -399,7 +399,10 @@
         "ingredients": ["Vorderschinken", "Salami", "Pilze"],
         "vegetarian": false,
         "price": [
-          "18cm": 4.00
+          8.00,
+          9.00,
+          17.00,
+          27.00
         ]
       },
       {
