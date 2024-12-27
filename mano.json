@@ -5,6 +5,8 @@
       "type": "pizza",
       "ingredients": ["Tomaten", "Käse"],
       "vegetarian": true,
+      "veganizable": true,
+      "veganmod": "ohne Käse",
       "price": [6.00,7.00,12.00,20.00]
     },
     {
@@ -13,6 +15,7 @@
       "type": "pizza",
       "ingredients": ["Salami"],
       "vegetarian": false,
+      "veganizable": true,
       "price": [6.50,8.00,12.50,24.00]
     },
     {
@@ -21,6 +24,7 @@
       "type": "pizza",
       "ingredients": ["Vorderschinken"],
       "vegetarian": false,
+      "veganizable": true,
       "price": [
         6.50,
         8.00,
@@ -34,6 +38,8 @@
       "type": "pizza",
       "ingredients": ["Champignons"],
       "vegetarian": true,
+      "veganizable": true,
+      "veganmod": "ohne Käse",
       "price": [
         6.50,
         8.00,
@@ -47,6 +53,8 @@
       "type": "pizza",
       "ingredients": ["Artischocken"],
       "vegetarian": true,
+      "veganizable": true,
+      "veganmod": "ohne Käse",
       "price": [
         6.50,
         8.00,
@@ -60,6 +68,8 @@
       "type": "pizza",
       "ingredients": ["Paprika-Mix"],
       "vegetarian": true,
+      "veganizable": true,
+      "veganmod": "ohne Käse",
       "price": [
         6.50,
         8.00,
@@ -73,6 +83,8 @@
       "type": "pizza",
       "ingredients": ["Brokkoli"],
       "vegetarian": true,
+      "veganizable": true,
+      "veganmod": "ohne Käse",
       "price": [
         6.50,
         8.00,
@@ -86,6 +98,8 @@
       "type": "pizza",
       "ingredients": ["Spinat", "Knoblauch"],
       "vegetarian": true,
+      "veganizable": true,
+      "veganmod": "ohne Käse",
       "price": [
         6.50,
         8.00,
@@ -255,6 +269,8 @@
       "type": "pizza",
       "ingredients": ["Zucchini", "Spinat", "Spargel", "Paprika", "Broccoli"],
       "vegetarian": true,
+      "veganizable": true,
+      "veganmod": "ohne Käse",
       "price": [
         7.00,
         9.00,
@@ -424,6 +440,8 @@
         "type": "pizza",
         "ingredients": ["Auberginen", "Parmesan"],
         "vegetarian": true,
+        "veganizable": true,
+        "veganmod": "ohne Käse",
         "price": [
           7.00,
           8.00,
@@ -437,6 +455,8 @@
         "type": "pizza",
         "ingredients": ["Spargel", "Eier"],
         "vegetarian": true,
+        "veganizable": true,
+        "veganmod": "ohne Käse, ohne Ei",
         "price": [
           7.00,
           8.00,
@@ -450,6 +470,8 @@
         "type": "pizza",
         "ingredients": ["Tomatenscheiben", "Rucola", "Spinat", "Spargel"],
         "vegetarian": true,
+        "veganizable": true,
+        "veganmod": "ohne Käse",
         "price": [
           7.00,
           8.50,
@@ -502,6 +524,8 @@
         "type": "pizza",
         "ingredients": ["Mais", "Broccoli", "Zwiebeln", "Peperoni"],
         "vegetarian": true,
+        "veganizable": true,
+        "veganmod": "ohne Käse",
         "price": [
           7.00,
           8.00,
@@ -515,6 +539,8 @@
         "type": "pizza",
         "ingredients": ["Tomatenscheiben", "Mozzarella"],
         "vegetarian": true,
+        "veganizable": true,
+        "veganmod": "ohne Käse",
         "price": [
           7.00,
           8.00,
@@ -528,6 +554,8 @@
         "type": "pizza",
         "ingredients": ["Parmesan", "Tomatenscheiben"],
         "vegetarian": true,
+        "veganizable": true,
+        "veganmod": "ohne Käse",
         "price": [
           7.00,
           8.00,
@@ -671,6 +699,8 @@
         "type": "pizza",
         "ingredients": ["Gorgonzola", "Spinat"],
         "vegetarian": true,
+        "veganizable": true,
+        "veganmod": "ohne Käse",
         "price": [
           7.50,
           9.00,
@@ -734,6 +764,8 @@
         "type": "pasta",
         "ingredients": ["Tomatensoße", "Paprika", "Auberginen", "Oliven"],
         "vegetarian": true,
+        "veganizable": true,
+        "veganmod": "ohne Käse - Soße evtl. mit Sahne",
         "price": 8.50
       },
       {
@@ -822,6 +854,8 @@
         "type": "pasta",
         "ingredients": ["Tomatensoße"],
         "vegetarian": true,
+        "veganizable": true,
+        "veganmod": "Soße evtl. mit Sahne",
         "price": 8.00
       },
       {
@@ -854,6 +888,8 @@
         "type": "pasta",
         "ingredients": ["Peperoni", "Knoblauch"],
         "vegetarian": true,
+        "veganizable": true,
+        "veganmod": "Soße evtl. mit Sahne",
         "price": 8.00
       },
       {
@@ -862,6 +898,8 @@
         "type": "pasta",
         "ingredients": ["Basilikumsoße"],
         "vegetarian": true,
+        "veganizable": true,
+        "veganmod": "Soße evtl. mit Sahne",
         "price": 8.00
       },
       {
@@ -894,6 +932,8 @@
         "type": "pasta",
         "ingredients": ["Tomatensoße", "scharfe Peperoni"],
         "vegetarian": true,
+        "veganizable": true,
+        "veganmod": "Soße evtl. mit Sahne",
         "price": 8.00
       },
       {
@@ -926,6 +966,8 @@
         "type": "pasta",
         "ingredients": ["Zucchini", "Spinat", "Spargel", "Broccoli"],
         "vegetarian": true,
+        "veganizable": true,
+        "veganmod": "Soße evtl. mit Sahne",
         "price": 8.00
       },
       {
@@ -950,6 +992,8 @@
         "type": "pasta",
         "ingredients": ["Tomatensoße"],
         "vegetarian": true,
+        "veganizable": true,
+        "veganmod": "Soße evtl. mit Sahne",
         "price": 8.00
       },
       {
@@ -966,6 +1010,8 @@
         "type": "pasta",
         "ingredients": ["Tomatensahnesoße", "frische Champignons"],
         "vegetarian": true,
+        "veganizable": true,
+        "veganmod": "Soße evtl. mit Sahne",
         "price": 8.00
       },
       {
@@ -974,6 +1020,8 @@
         "type": "salad",
         "ingredients": ["verschiedene grüne Blattsalate"],
         "vegetarian": true,
+        "veganizable": true,
+        "veganmod": "Essig-Öl-Dressing",
         "price": [3.50, 6.00]
       },
       {
@@ -982,6 +1030,8 @@
         "type": "salad",
         "ingredients": ["Gurkensalat"],
         "vegetarian": true,
+        "veganizable": true,
+        "veganmod": "Essig-Öl-Dressing",
         "price": [5.00, 7.50]
       },
       {
@@ -990,6 +1040,8 @@
         "type": "salad",
         "ingredients": ["verschiedene grüne Blattsalate", "Mais", "Radieschen", "Karotten"],
         "vegetarian": true,
+        "veganizable": true,
+        "veganmod": "Essig-Öl-Dressing",
         "price": [5.00, 7.00]
       },
       {
@@ -998,13 +1050,15 @@
         "type": "salad",
         "ingredients": ["Tomatensalat", "Zwiebeln"],
         "vegetarian": true,
+        "veganizable": true,
+        "veganmod": "Essig-Öl-Dressing",
         "price": [5.00, 7.50]
       },
       {
         "id": 104,
         "name": "Tonno",
         "type": "salad",
-        "ingredients": ["Blattsalatb", "Thunfisch", "Zwiebeln", "Kapern", "Karotten"],
+        "ingredients": ["Blattsalat", "Thunfisch", "Zwiebeln", "Kapern", "Karotten"],
         "vegetarian": false,
         "price": [5.50, 7.50]
       },
@@ -1014,6 +1068,8 @@
         "type": "salad",
         "ingredients": ["Blattsalat", "Paprika", "Käse", "Gurken", "Zwiebeln", "Karotten"],
         "vegetarian": true,
+        "veganizable": true,
+        "veganmod": "Essig-Öl-Dressing, ohne Käse",
         "price": [6.50, 7.50]
       },
       {
@@ -1022,6 +1078,8 @@
         "type": "salad",
         "ingredients": ["Blattsalat", "Paprika", "Käse", "Vorderschinken", "Champignons", "Oliven"],
         "vegetarian": false,
+        "veganizable": true,
+        "veganmod": "Essig-Öl-Dressing, ohne Käse",
         "price": [6.50, 7.50]
       },
       {
@@ -1078,6 +1136,8 @@
         "type": "salad",
         "ingredients": ["Blattsalat", "Tomaten", "Mozzarella"],
         "vegetarian": true,
+        "veganizable": true,
+        "veganmod": "Essig-Öl-Dressing",
         "price": [6.50, 7.50]
       },
       {
@@ -1086,6 +1146,8 @@
         "type": "salad",
         "ingredients": ["Blattsalat", "Ei", "Mais", "Tomaten", "Rucola"],
         "vegetarian": true,
+        "veganizable": true,
+        "veganmod": "Essig-Öl-Dressing, ohne Ei",
         "price": [6.50, 8.50]
       },
       {
