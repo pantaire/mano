@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
     // URL for the JSON data
-    const jsonDataUrl = 'https://raw.githubusercontent.com/pantaire/mano/main/mano.json';
+    //const jsonDataUrl = 'https://raw.githubusercontent.com/pantaire/mano/main/mano.json';
+    const jsonDataUrl = 'mano.json'
 
 
     // Event listeners for type filter buttons
@@ -43,11 +44,14 @@ document.addEventListener('DOMContentLoaded', function () {
             if (item.vegetarian) {
                 listItem.classList.add('bg-success', 'text-white');
             }
+            if (item.veganizable) {
+                listItem.classList.add('bg-success', 'text-white');
+            }
             menuList.appendChild(listItem);
         });
     }
 
-    // Function to filter menu items based on selected item type, ingredients, and vegetarian status
+    // Function to filter menu items based on selected item type, ingredients, and vegetarian/veganizable status
     function filterMenuItems(filterValue) {
         if (filterValue === undefined) filterValue = 'all'; // Handle undefined filterValue
         fetch(jsonDataUrl)
@@ -57,7 +61,9 @@ document.addEventListener('DOMContentLoaded', function () {
                     const matchesType = filterValue === 'all' || item.type.toLowerCase() === filterValue.toLowerCase();
                     const matchesIngredients = selectedIngredients.length === 0 || selectedIngredients.every(ingredient => item.ingredients.map(i => i.toLowerCase()).some(i => i.includes(ingredient.toLowerCase())));
                     const matchesVegetarian = !document.getElementById('vegetarian-filter').checked || item.vegetarian;
-                    return matchesType && matchesIngredients && matchesVegetarian;
+                    const matchesVeganizable = !document.getElementById('veganizable-filter').checked || item.veganizable;
+
+                    return matchesType && matchesIngredients && matchesVegetarian && matchesVeganizable;
                 });
                 displayMenuItems(filteredItems);
             })
@@ -97,6 +103,12 @@ document.addEventListener('DOMContentLoaded', function () {
         filterMenuItems(getActiveFilter()); // Filter menu items
     });
 
+    // Event listener for the vegan filter checkbox
+    document.getElementById('veganizable-filter').addEventListener('change', function () {
+        const veganizableFilter = this.checked;
+        console.log('Vegan filter:', veganizableFilter);
+        filterMenuItems(getActiveFilter()); // Filter menu items
+    });
     
 
     // Function to render pillbox for selected ingredient
